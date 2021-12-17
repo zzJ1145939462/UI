@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/axios.js"></script>
+</head>
+<body>
+    <script>
+        // axios.get("https://localhost:7100/Text/GetHi?name=%E5%AF%84%E4%BA%86&wei=%E9%98%BF%E4%BC%9F").then((result) => {
+            
+        // }).catch((err) => {
+            
+        // });
+
+        // var s="jile";
+        // alert(s)
+
+        // function mainfunc(a){
+        //     a("hello");
+        // }
+        // mainfunc(function(data){
+        //     alert(data);
+        // });
+
+        axios.get("https://localhost:7100/Text/GetHi?name=ni&wei=he").then(function(data){
+            console.log(data);
+        })
+    </script>
+</body>
+</html>
